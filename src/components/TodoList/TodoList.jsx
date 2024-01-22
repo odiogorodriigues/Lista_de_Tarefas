@@ -69,6 +69,7 @@ const TodoList = () => {
                             </td>
                             <td>
                                 <img
+                                    className="bottons"
                                     src={edit}
                                     onClick={() => {
                                         setIsOpen(true);
@@ -77,6 +78,7 @@ const TodoList = () => {
                                     }}
                                 />
                                 <img
+                                    className="bottons"
                                     src={deletar}
                                     onClick={() => {
                                         setIsOpen(true);
